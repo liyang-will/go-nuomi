@@ -1,0 +1,34 @@
+{
+  "LibOption": {
+    "Coroutine": "10",
+    "Wordlist": "http://www.bejson.com",
+    "OutputFilename": "88",
+    "NoStatus": true,
+    "NoProgress": true,
+    "Quiet": true,
+    "WildcardForced": true,
+    "Verbose": true,
+    "Delay": 5
+  },
+  "DirOption":{
+    "Extensions": "php",
+    "StatusCodes": "200,204,301,302,307,401,403",
+    "StatusCodesBlacklist": "404",
+    "WildcardForced": true,
+    "Expanded": true,
+    "NoStatus": true,
+    "UseSlash": true
+  },
+  "HTTPOptions": {
+    "Password": "miniboom",
+    "URL": "www.baidu.com",
+    "UserAgent": "",
+    "Username": "miniboom",
+    "Proxy": "",
+    "Cookies": "",
+    "Headers":"",
+    "Timeout": 5,
+    "FollowRedirect": "",
+    "InsecureSSL": false
+  }
+}
